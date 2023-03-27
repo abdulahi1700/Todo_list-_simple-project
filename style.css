@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e7dede;
+    
+}
+
+.container{
+   max-width: 400px;
+   width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.container h2{
+    text-align: center;
+    font-weight: 600;
+    background-color: #ae00ff;
+    color: #fff;
+    border-bottom-right-radius: 19px;
+    border-bottom-left-radius: 20px;
+}
+.input-todo{
+    padding: 20px 0;
+    text-align: center;
+}
+
+.input-todo input{
+    width: 90%;
+    padding: 12px 0;
+    outline-color: transparent;
+   
+    border: 1.5px solid #d4c5c5;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.input-todo input::placeholder{
+    text-align: center;
+    font-size: 20px;
+}
+.input-todo #add-btn{
+    margin-top: 20px;
+    padding: 8px 32px;
+    background-color: #ae00ff;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.input-todo #add-btn:hover{
+    background-color: #9469a7;
+}
+
+.show{
+    background-color: #9469a7;
+    width: 90%;
+    margin: 14px;
+    margin-left: 20px;
+    list-style: none;
+    border-radius: 6px;
+    color: #fff;
+    text-align: left;
+    padding-left: 7px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.fa-trash{
+    padding: 4px;
+    margin: 5px;
+    /* border: 1px solid #c8bcbc; */
+    background-color: #e78719;
+    text-align: center;
+    border-radius: 5px;
+}
